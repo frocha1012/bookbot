@@ -1,0 +1,99 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f3e9dc;
+  color: #3b2f2f;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#sidebar {
+  width: 220px;
+  background-color: #d4bfa5;
+  border-right: 1px solid #bda58b;
+  overflow-y: auto;
+}
+
+#sidebar h5 {
+  color: #3b2f2f;
+}
+
+#chat-list li {
+  color: #3b2f2f;
+  border: none;
+}
+
+#chat-list li:hover {
+  background-color: #e3cdb4;
+  cursor: pointer;
+}
+
+#main-box {
+  background-color: #fffaf3;
+}
+
+#chat-box {
+  background-color: #f7f2ea;
+  border: 1px solid #e2d3c0;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  max-width: 80%;
+  word-wrap: break-word;
+  display: inline-block;
+}
+
+.user {
+  align-self: flex-end;
+  background-color: #dceaf2;
+  text-align: right;
+  margin-left: auto;
+  color: #1a1a1a;
+}
+
+.bot {
+  align-self: flex-start;
+  background-color: #f1e6d6;
+  margin-right: auto;
+  color: #3b2f2f;
+}
+
+form input,
+form button {
+  border-radius: 8px !important;
+}
+
+.modal-content {
+  background-color: #fff5ea;
+  color: #3b2f2f;
+}
+
+.btn-primary {
+  background-color: #a67c52;
+  border-color: #a67c52;
+}
+
+.btn-primary:hover {
+  background-color: #8b623a;
+  border-color: #8b623a;
+}
+
+.btn-light {
+  background-color: #f5e9db;
+  color: #3b2f2f;
+  border-color: #e6d6c2;
+}
+
+.btn-outline-danger {
+  border-color: #c98b85;
+  color: #7a2e2e;
+}
+
+.btn-outline-danger:hover {
+  background-color: #d99b95;
+  color: #3b2f2f;
+}
